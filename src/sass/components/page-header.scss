@@ -1,0 +1,11 @@
+    // Mixin в bg
+    .page-header {
+        @include bg-image($path: '', $size: cover, $reapet: no-repeat, $pos: center);
+        min-height: 1000px;
+    }
+    
+    .page-nav {
+        @include center-flex('ver');
+        justify-content: space-between;
+        min-height: 86px;
+    }

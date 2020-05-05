@@ -1,0 +1,31 @@
+// Font-size
+$primary-font-size:14px;
+$primary-line-height:17px;
+// Font-family
+$primary-font-family:'Montserrat',
+sans-serif;
+$secondary-font-family:'Kaushan Script',
+cursive;
+$third-font-family:'Roboto',
+sans-serif;
+// Color
+$primary-white-color:#ffffff;
+$primary-dark-color:#333333;
+$hover-color:#fce38a;
+$bg-color:#f38181;
+$color-icon:#95e1d3;
+$color-light:#999999;
+$hover-bg-color:#f38181;
+// Effects
+$transition-color:color 200ms linear;
+$transition-width:width 200ms linear;
+$transition-bg:background-color 200ms linear;
+$transition-empty:200ms linear;
+$transform:translate(-10px, -10px);
+// Elements size
+$service-icon-wd:30px;
+$service-icon-ht:30px;
+$overlay-link-wd:55px;
+$overlay-link-ht:55px;
+$overlay-icon-wd:26px;
+$overlay-icon-ht:26px;

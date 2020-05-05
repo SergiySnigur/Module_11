@@ -1,0 +1,49 @@
+.overlay {
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.overlay__list {
+    @include center-flex('ver');
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 224px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay__link {
+    @include center-flex('all');
+    width: $overlay-link-wd;
+    height: $overlay-link-ht;
+    background-color: $hover-color;
+    margin: 0;
+    padding: 0;
+    transition: $transition-bg;
+    &:hover,
+     :focus {
+        background-color: $hover-bg-color;
+    }
+    &--icon {
+        display: block;
+        width: $overlay-icon-wd;
+        height: $overlay-icon-ht;
+        fill: $hover-bg-color;
+    }
+    &:hover .overlay__link--icon,
+     :focus .overlay__link--icon {
+        fill: $primary-white-color;
+    }
+}

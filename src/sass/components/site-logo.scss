@@ -1,0 +1,17 @@
+.site-logo {
+    display: block;
+    font-family: $primary-font-family;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: $primary-white-color;
+    text-decoration: none;
+    cursor: pointer;
+    transition: $transition-color;
+    margin: 0;
+    padding: 0;
+    &:hover,
+     :focus {
+        color: $hover-color;
+    }
+}
